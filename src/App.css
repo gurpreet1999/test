@@ -1,38 +1,157 @@
-.App {
-  text-align: center;
+*{
+  font-family:Open Sans;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ok{
+  width: 386px;
+  height: 586px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.flex{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.butn{
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  color: #FFFFFFFF; /* white */
+  background: #7D6CE2FF;
+  padding: 0 12px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.button:hover {
+  color: #FFFFFFFF; /* white */
+  background: #644FDCFF; /* primary-550 */
+}
+
+input{
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  background: #FFFFFFFF; 
+  border-radius: 4px;
+  border-width: 1px; 
+  border-color: #9095A0FF; 
+  outline: none; 
+  width: 638px; 
+  height: 36px; 
+}
+
+.text{
+  font-size: 20px; 
+  font-weight: 700; 
+  line-height:22px; 
+  color: #171A1FFF; 
+  font-family: Open Sans;
+  font-weight: 700; 
+}
+
+.stack{
+display: flex;
+}
+
+.p{
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  color: #171A1FFF; 
+  font-family:Open Sans;
+}
+
+.image{
+  width: 259px; 
+  height: 144px; 
+  border-radius: 8px 8px 0px 0px; 
+}
+.image img{
+  width: 100%;
+  height: 100%;
+}
+
+.object{
+display: flex;
+flex-direction: column;
+}
+
+
+.card{
+  box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f; 
+  border-radius: 6px;
+  background: #FFFFFFFF;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.icon{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.heading{
+  font-size: 20px; 
+  font-weight: 700; 
+  line-height: 30px; 
+  color: #171A1FFF; 
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.p{
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  color: #9095A0FF; 
+}
+.minaway{
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  font-size: 12px; 
+  font-weight: 400; 
+  line-height: 20px;
+  background: #F3F4F6FF;
+  height: 28px; 
+  padding-left:6px; 
+  padding-right:6px;
+  border-radius:14px; 
+  color: #323842FF;
+}
+.follow{
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  font-size: 12px; 
+  font-weight: 400; 
+  line-height: 20px; 
+  opacity: 1; 
+  height: 21px; 
+  padding-left: 6px; 
+  padding-right: 6px; 
+  border-radius: 11px;
+  color: #0A4D20FF; /* success-800 */
+  background: #1DD75BFF; /* success-500 */
+
+  
+}
+
+.addyour{
+  height: 28px; 
+  padding-left: 6px; 
+  padding-right: 6px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  border-radius: 14px; 
+  font-size: 12px; 
+  font-weight: 400; 
+  line-height: 20px; 
+  color: #379AE6FF; /* info-500 */
+  background: #F1F8FDFF; /* info-100 */
 }

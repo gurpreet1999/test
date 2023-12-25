@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+   
+    width:500px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
